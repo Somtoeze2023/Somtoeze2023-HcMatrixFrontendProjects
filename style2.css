@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.article-header {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 40px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.image-container img {
+    max-width: 300px;
+    border: 5px solid black;
+    padding: 5px;
+}
+
+.post {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.main-footer {
+    text-align: center;
+    padding: 20px;
+}
